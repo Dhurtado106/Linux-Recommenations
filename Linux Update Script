@@ -1,0 +1,9 @@
+mkdir linux-update-script
+cd linux-update-script
+git init
+nano update_script.sh
+git add update_script.sh
+git commit -m "Add system update script"
+git branch -M main
+git remote add origin https://github.com/Dhurtado106/linux-update-script.git
+git push -u origin main
